@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pares e impares</title>
+    <script src="js/par.js"></script>
+</head>
+<body>
+    <script>
+        let nums=500;
+        let array=[];
+        for(let i=0;i<=nums;i++){
+            let num=parseInt(Math.random()*10000)+1
+            array.push(num);
+            document.write(`<p>el numero ${num} es ${par(num)}`);
+        }
+        
+
+    </script>
+
+</body>
+</html>
